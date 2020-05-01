@@ -276,6 +276,7 @@ function getModelYears(inventory) {
   }
   return modelYears;
 }
+
 /**
  * ### Challenge `getCarInfoById`
  *  * * THIS ONE IS A STRETCH GOAL. ATTEMPT IT ONLY AFTER
