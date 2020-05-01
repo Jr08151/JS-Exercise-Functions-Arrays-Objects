@@ -216,6 +216,7 @@ var inventory = [
   *
   * NOTE: This example has been completed for you.
 **/
+
 function get3rdCar(inventory) {
   const the3rd = inventory[2];
   return `The is a ${the3rd.car_make} ${the3rd.car_model}`
@@ -238,6 +239,7 @@ function get3rdCar(inventory) {
  * For example, if getCarInfoByIndex is invoked with the inventory and the number 0,
  * it will return `This is a Lincoln Navigator`.
 */
+
 function getCarInfoByIndex(inventory, index) {
   const makeModel = inventory[index];
   return `This is a ${makeModel.car_make} ${makeModel.car_model}`;
@@ -273,7 +275,7 @@ function getModelYears(inventory) {
     modelYears.push(inventory[i].car_year);
   }
   return modelYears;
-
+}
 /**
  * ### Challenge `getCarInfoById`
  *  * * THIS ONE IS A STRETCH GOAL. ATTEMPT IT ONLY AFTER
